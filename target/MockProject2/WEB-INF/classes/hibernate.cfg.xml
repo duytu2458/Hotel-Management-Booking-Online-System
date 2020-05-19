@@ -1,0 +1,19 @@
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<!-- JDBC Database connection settings -->
+		<property name="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</property>
+		<property name="hibernate.connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+		<property name="hibernate.connection.url">jdbc:sqlserver://localhost:1433;databaseName=AUTB032;</property>
+		<property name="hibernate.connection.username">sa</property>
+		<property name="hibernate.connection.password">Poi)9876</property>
+		<property name="hibernate.show_sql">true</property>
+		<property name="hbm2ddl.auto">note</property>
+		<!-- JDBC connection pool settings ... using built-in test pool -->
+		<mapping class="com.mockProject.model.Classes" />
+		<mapping class="com.mockProject.model.Participant" />
+		<mapping class="com.mockProject.model.School" />
+	</session-factory>	
+</hibernate-configuration>
