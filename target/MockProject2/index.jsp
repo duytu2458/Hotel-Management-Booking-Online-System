@@ -8,11 +8,11 @@
 <body style="text-align: left;margin-left : 100px;">
 	<h2>Mock Project 2</h2>
 	<div>
-		<a href = "ManHinhAdd" style="font-size: 20px;">Man hinh Add</a>
+		<a href = "ScreenAdd" style="font-size: 20px;">Man hinh Add</a>
 	</div>
 	<hr>
 	<div>
-		<a href = "ManHinhSearchList" style="font-size: 20px;">Man hinh SearchList</a>
+		<a href = "ScreenSearch" style="font-size: 20px;">Man hinh SearchList</a>
 	</div>
 	
 </body>
