@@ -1,2 +1,0 @@
-HELLO tets nhanhGuest
-ad
