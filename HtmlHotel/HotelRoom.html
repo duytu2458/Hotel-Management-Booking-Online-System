@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <link rel="stylesheet" href="CssHotel/Style.css" />
+    <link rel="stylesheet" href="CssHotel/StyleRoom.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
 
     <style>
         p {
@@ -31,13 +33,13 @@
                 <a class="nav-link" href="#">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" href="#">Room</a>
+                <a class="nav-link active" href="HotelRoom.html">Room</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Services</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Pay</a>
+                <a class="nav-link" href="HotelBooking.html">Pay</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">About</a>
@@ -50,16 +52,65 @@
         
         <article class="searchRoom">
             <form action="" class="">
-                <div class="formSelect">
-                    <label for="">Room Type : </label>
-                    <select name="" id="" class="">
-                        <option value="">Standard (STD)</option>
-                        <option value="">Superior (SUP)</option>
-                        <option value="">Deluxe (DLX)</option>
-                        <option value="">Suite (SUT)</option>
-                        <option value="">Connecting room</option>
-                    </select>
+                <br>
+                <div class="form-group row">
+                    <label for="" class="col-sm-4 col-form-label" style="padding-right: 0px;">&#160;&#160;Begin-Date</label>
+                    <div class="col-sm-7">
+                        <input type="date" class="form-control" id="">
+                    </div>
+                    <div class="col-sm-1"></div>
                 </div>
+               
+                <div class="form-group row">
+                    <label for="" class="col-sm-4 col-form-label" style="padding-right: 0px;">&#160;&#160;End-Date&#160;&#160;</label>
+                    <div class="col-sm-7">
+                        <input type="date" class="form-control" id="">
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+                <div class="form-group row">
+                    <label for="" class="col-sm-4 col-form-label" style="padding-right: 0px;">&#160;&#160;Room Type</label>
+                    <div class="col-sm-7"> <!-- formSelect -->
+                        <select name="" id="" class="form-control">
+                            <option value="">Standard (STD)</option>
+                            <option value="">Superior (SUP)</option>
+                            <option value="">Deluxe (DLX)</option>
+                            <option value="">Suite (SUT)</option>
+                            <option value="">Connecting room</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="" class="col-sm-4 col-form-label" style="padding-right: 0px;">&#160;&#160;View</label>
+                    <div class="col-sm-7"> <!-- formSelect -->
+                        <select name="" id="" class="form-control">
+                            <option value="">Beach</option>
+                            <option value="">Moutain</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="" class="col-sm-4 col-form-label">&#160;&#160;Sale  </label>
+                    <div class="col-sm-7">
+                        <select name="" id="" class="form-control">
+                            <option value=""> < 30%</option>
+                            <option value=""> 30% - 50%</option>
+                            <option value=""> > 50%</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="" class="col-sm-7 col-form-label">&#160;&#160;Number Of People </label>
+                    <div class="col-sm-4">
+                        <input type="number" class="form-control" id="" value="1">
+                    </div>
+                </div>
+                <div>
+                    <button type="button" class="btn btn-warning" style="margin-left: 18%;"><i class="fas fa-undo"></i> Reset</button>
+				    <button type="button" class="btn btn-success"><i class="fas fa-plus-circle"></i> Search</button>
+                </div>
+                
+                
             </form>
         </article>
 
@@ -71,102 +122,120 @@
                     <img class="card-img-top" src="/imgHotel/room.jpg" alt="">
                     <div class="card-body">
                         <h5 class="card-title">Phong Vip</h5>
-                        <h6 class="card-subtitle mb-1 text-muted">Thông tin cơ bản</h6>
+                        <h6 class="card-subtitle mb-1 text-muted">Thông tin cơ bản
+                            <span class="chiTiet"><u>Chi tiết</u></span>
+                        </h6>
                         <p class="">View : Biển </p>
-                        <a href="#" class="btn btn-primary">Booking</a>
+                        <a href="HotelBooking.html" class="btn btn-primary">Booking</a>
                     </div>
                     <div class="card-footer text-muted">
-                        Footer của Card
+                        <p>&#36; 1234</p>
                     </div>
                 </div>
                 <div class="card" style="position: static;">
                     <img class="card-img-top" src="/imgHotel/room.jpg" alt="">
                     <div class="card-body">
                         <h5 class="card-title">Phong Vip</h5>
-                        <h6 class="card-subtitle mb-1 text-muted">Thông tin cơ bản</h6>
+                        <h6 class="card-subtitle mb-1 text-muted">Thông tin cơ bản
+                            <span class="chiTiet"><u>Chi tiết</u></span>
+                        </h6>
                         <p class="">View : Biển </p>
-                        <a href="#" class="btn btn-primary">Booking</a>
+                        <a href="HotelBooking.html" class="btn btn-primary">Booking</a>
                     </div>
                     <div class="card-footer text-muted">
-                        Footer của Card
+                        <p>&#36; 1234</p>
                     </div>
                 </div>
                 <div class="card" style="position: static;">
                     <img class="card-img-top" src="/imgHotel/room.jpg" alt="">
                     <div class="card-body">
                         <h5 class="card-title">Phong Vip</h5>
-                        <h6 class="card-subtitle mb-1 text-muted">Thông tin cơ bản</h6>
+                        <h6 class="card-subtitle mb-1 text-muted">Thông tin cơ bản
+                            <span class="chiTiet"><u>Chi tiết</u></span>
+                        </h6>
                         <p class="">View : Biển </p>
-                        <a href="#" class="btn btn-primary">Booking</a>
+                        <a href="HotelBooking.html" class="btn btn-primary">Booking</a>
                     </div>
                     <div class="card-footer text-muted">
-                        Footer của Card
+                        <p>&#36; 1234</p>
                     </div>
                 </div>
                 <div class="card" style="position: static;">
                     <img class="card-img-top" src="/imgHotel/room.jpg" alt="">
                     <div class="card-body">
                         <h5 class="card-title">Phong Vip</h5>
-                        <h6 class="card-subtitle mb-1 text-muted">Thông tin cơ bản</h6>
+                        <h6 class="card-subtitle mb-1 text-muted">Thông tin cơ bản 
+                            <span class="chiTiet"><u>Chi tiết</u></span>
+                        </h6>
                         <p class="">View : Biển </p>
-                        <a href="#" class="btn btn-primary">Booking</a>
+                        <a href="HotelBooking.html" class="btn btn-primary">Booking</a>
                     </div>
                     <div class="card-footer text-muted">
-                        Footer của Card
+                        <p>&#36; 1234</p>
                     </div>
                 </div>
             </div>
+
             <div class="card-group">
                 <div class="card" style="position: static;">
                     <img class="card-img-top" src="/imgHotel/room.jpg" alt="">
                     <div class="card-body">
                         <h5 class="card-title">Phong Vip</h5>
-                        <h6 class="card-subtitle mb-1 text-muted">Thông tin cơ bản</h6>
+                        <h6 class="card-subtitle mb-1 text-muted">Thông tin cơ bản
+                            <span class="chiTiet"><u>Chi tiết</u></span>
+                        </h6>
                         <p class="">View : Biển </p>
-                        <a href="#" class="btn btn-primary">Booking</a>
+                        <a href="HotelBooking.html" class="btn btn-primary">Booking</a>
                     </div>
                     <div class="card-footer text-muted">
-                        Footer của Card
+                        <p>&#36; 1234</p>
                     </div>
                 </div>
                 <div class="card" style="position: static;">
                     <img class="card-img-top" src="/imgHotel/room.jpg" alt="">
                     <div class="card-body">
                         <h5 class="card-title">Phong Vip</h5>
-                        <h6 class="card-subtitle mb-1 text-muted">Thông tin cơ bản</h6>
+                        <h6 class="card-subtitle mb-1 text-muted">Thông tin cơ bản
+                            <span class="chiTiet"><u>Chi tiết</u></span>
+                        </h6>
                         <p class="">View : Biển </p>
-                        <a href="#" class="btn btn-primary">Booking</a>
+                        <a href="HotelBooking.html" class="btn btn-primary">Booking</a>
                     </div>
                     <div class="card-footer text-muted">
-                        Footer của Card
+                        <p>&#36; 1234</p>
                     </div>
                 </div>
                 <div class="card" style="position: static;">
                     <img class="card-img-top" src="/imgHotel/room.jpg" alt="">
                     <div class="card-body">
                         <h5 class="card-title">Phong Vip</h5>
-                        <h6 class="card-subtitle mb-1 text-muted">Thông tin cơ bản</h6>
+                        <h6 class="card-subtitle mb-1 text-muted">Thông tin cơ bản
+                            <span class="chiTiet"><u>Chi tiết</u></span>
+                        </h6>
                         <p class="">View : Biển </p>
-                        <a href="#" class="btn btn-primary">Booking</a>
+                        <a href="HotelBooking.html" class="btn btn-primary">Booking</a>
                     </div>
                     <div class="card-footer text-muted">
-                        Footer của Card
+                        <p>&#36; 1234</p>
                     </div>
                 </div>
                 <div class="card" style="position: static;">
                     <img class="card-img-top" src="/imgHotel/room.jpg" alt="">
                     <div class="card-body">
                         <h5 class="card-title">Phong Vip</h5>
-                        <h6 class="card-subtitle mb-1 text-muted">Thông tin cơ bản</h6>
+                        <h6 class="card-subtitle mb-1 text-muted">Thông tin cơ bản 
+                            <span class="chiTiet"><u>Chi tiết</u></span>
+                        </h6>
                         <p class="">View : Biển </p>
-                        <a href="#" class="btn btn-primary">Booking</a>
+                        <a href="HotelBooking.html" class="btn btn-primary">Booking</a>
                     </div>
                     <div class="card-footer text-muted">
-                        Footer của Card
+                        <p>&#36; 1234</p>
                     </div>
                 </div>
             </div>
-            <article style="float: right;margin-right: 38%; margin-top: 10px;">
+
+            <article style="float: right;margin-right: 38%; margin-top: 0.25%;">
                 <ul class="pagination justify-content-end">
                     <li class="page-item"> <a class="page-link" href="#">Trang trước</a> </li>
                     <li class="page-item"><a class="page-link" href="#">1</a></li>
@@ -185,11 +254,26 @@
                 
             </article>
         </article>
-        
-
     </article>
 
-    
+
+    <div class="modal">
+		<div class="stylePopup">
+            <span class="close">&times;</span>
+            <p style="text-align: center;"> ROMM ID : XXXX</p>
+            <div class="hinhAnhChiTiet"></div>
+            
+            <div class="chiTietDichVuPhong">
+
+            <div class="chiTietPhong">
+
+            </div>
+
+            </div>
+            
+
+		</div>
+	</div>
 
     <footer class="footer">
         <div class="infoHotel">
@@ -212,6 +296,23 @@
     <script>
         $(document).ready(function (){
             //$("#play").trigger("play");
+
+
+            $(".chiTiet").click(function (){
+                $(".modal").show();
+            });
+            $(".chiTiet").mouseenter(function (){
+                $(this).css("cursor","pointer");
+            });
+            $(window).on('click', function (e) {
+			    if ($(e.target).is('.modal')) {
+				    $(".modal").hide();
+			    }
+		    });
+            $(".close").click(function (){
+                $(".modal").hide();
+            });
+            
             
 
         });

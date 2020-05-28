@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="CssHotel/StyleBooking.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <style>
+        p {
+            margin-bottom: 0px;
+        }
+    </style>
+</head>
+
+<body style="zoom: 110%;">
+    <article class="rowHeader">
+        <span class="rowHeader-left">21/05/2020 <span class="fa fa-map-marker"></span> Đà Nẵng &#9728; 28
+            &#8451;</span>
+        <span class="rowHeader-right fas fa-user-cog"> Admin</span>
+    </article>
+
+    <header class="header" style="z-index: 1;">
+        <ul class="nav justify-content-end nav-pills">
+            <img class="logoHotel" src="/imgHotel/logo.png" alt="???" srcset="" />
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="HotelRoom.html">Room</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="HotelBooking.html">Pay</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+        </ul>
+        <hr />
+    </header>
+
+    <article class="contentWeb">
+        <article class="contentCustomer">
+            <div>
+                <p class="tieuDeDangKi"><b>THỦ TỤC ĐĂNG KÍ</b></p>
+                <p class="tieuDeKiemTraTienPhong"><b>KIỂM TRA THANH TOÁN</b></p>
+            </div>
+
+            <div class="progress" style="margin-top: 3%; margin-left: 5%; width: 90%;">
+                <div class="progress-bar bg-success" role="progressbar" style="width: 33.33%;" aria-valuenow="25"
+                    aria-valuemin="0" aria-valuemax="100">
+                    Step 1
+                </div>
+                <div class="progress-bar bg-success" role="progressbar" style="width: 33.33%;" aria-valuenow="25"
+                    aria-valuemin="0" aria-valuemax="100" hidden>
+                    Step 2
+                </div>
+                <div class="progress-bar bg-success" role="progressbar" style="width: 33.33%;" aria-valuenow="25"
+                    aria-valuemin="0" aria-valuemax="100" hidden>
+                    Step 3
+                </div>
+            </div>
+
+            <article>
+                <div style="margin-left: 5%; margin-top: 2%; margin-right: 5%;" hidden>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr style="color:white; background-color:#28A745">
+                                <th scope="col" style="table-layout: fixed;width: 10px;" >Chọn?</th>
+                                  <th scope="col">Service Name</th>
+                                  <th scope="col">Number People</th>
+                                  <th scope="col">Owner name</th>
+                                  <th scope="col">Owner phone number</th>
+                                  <th scope="col">Owner address</th>
+                                  <th scope="col">Cost ($/day)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td style="table-layout: fixed;width: 10%;"> <input type="checkbox" name="" id=""> </td>
+                                <td style="table-layout: fixed;width: 12%;">Phòng chờ check in</td>
+                                <td style="table-layout: fixed;width: 15%;"><input type="text" class="form-control" style="width: 40%;"></td>
+                                <td style="table-layout: fixed;width: 15%;">Nguyễn Hữu Namn </td>
+                                <td style="table-layout: fixed;width: 18%;" >11111111111</td>
+                                <td style="table-layout: fixed;width: 19%;">31ễam Nguyễn sdassd asd asd sad uan</td>
+                                <td style="table-layout: fixed;"><p style="text-align: right;">500</p></td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Spa</td>
+                                <td>Photocopy</td>
+                                <td>Nguyễn Hữu Nam</td>
+                                <td>012827266</td>
+                                <td>313 Bui Thi Xuan</td>
+                                <td >500</td>
+                            </tr>
+                            
+        
+                        </tbody>
+                    </table>
+                    
+                    
+                    
+
+
+
+                    
+                </div>
+            </article>
+
+            <article>
+                <div style="margin-left: 5%; margin-top: 2%; margin-right: 5%;">
+                    <div class="form-group row">
+                        <div class="col-sm-2">
+                            <label for="">&#160;Sex
+                                <sup><i class="fa fa-asterisk dauSao"></i></sup></label>
+                            <select name="" id="" class="form-control">
+                                <option value="">Perfix</option>
+                                <option value="">Mr</option>
+                                <option value="">Mrs</option>
+                            </select>
+                        </div>
+                        <div class="col-sm-5">
+                            <label for="">&#160;First Name
+                                <sup><i class="fa fa-asterisk dauSao"></i></sup></label>
+                            <input class="form-control" type="text" />
+                        </div>
+                        <div class="col-sm-5">
+                            <label for="">&#160;Last Name
+                                <sup><i class="fa fa-asterisk dauSao"></i></sup></label>
+                            <input class="form-control" type="text" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-3">
+                            <label for="">&#160;Country <sup><i class="fa fa-asterisk dauSao"></i></sup></label>
+                            <input class="form-control" type="text" />
+                        </div>
+                        <div class="col-sm-4">
+                            <label for="">&#160;Mobile Phone
+                                <sup><i class="fa fa-asterisk dauSao"></i></sup></label>
+                            <input class="form-control" type="text" />
+                        </div>
+                        <div class="col-sm-5">
+                            <label for="">&#160;Email <sup><i class="fa fa-asterisk dauSao"></i></sup></label>
+                            <input class="form-control" type="text" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-12">
+                            <label for="">&#160;Additional Details and Preferences</label>
+                            <textarea class="form-control" id="" rows="3" cols="10" style="resize: none;"></textarea>
+                        </div>
+                    </div>
+
+                    <div>
+                        <label for="">&#160;Payment Information</label>
+                        <img src="/imgHotel/thanhToan.png" alt="" srcset="" style="width: 33%;" />
+                    </div>
+
+                    <div style="width: 55%; margin-top: 2%;">
+                        <div class="form-group row">
+                            <div class="col-sm-7">
+                                <label for="">&#160;Card Number
+                                    <sup><i class="fa fa-asterisk dauSao"></i></sup></label>
+                                <input class="form-control" type="text" />
+                            </div>
+                            <div class="col-sm-5">
+                                <label for="">&#160;CVV <sup><i class="fa fa-asterisk dauSao"></i></sup></label>
+                                <input class="form-control" type="text" />
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <div class="col-sm-7">
+                                <label for="">&#160;Name on Card
+                                    <sup><i class="fa fa-asterisk dauSao"></i></sup>
+                                    <span></span>
+                                </label>
+                                <input class="form-control" type="text" />
+                            </div>
+                            <div class="col-sm-5">
+                                <label for="">&#160;Expiration Date
+                                    <sup><i class="fa fa-asterisk dauSao"></i></sup>
+                                </label>
+                                <input class="form-control" type="month" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <label for="">&#160;Policies</label>
+                        <div class="noiDungChinhSach">
+                            <p style="margin-left: 2%;">
+                                Check-in : After 2:00 PM<span style="margin-left: 26%;">Guarantee Policy : GUARANTEE BY
+                                    CREDIT CARD ONLY</span>
+                            </p>
+                            <p style="margin-left: 2%;">
+                                Check-out : Before 11:00 AM
+                                <span style="margin-left: 22%;">Cancel Policy : CANCEL 24HRS PRIOR TO ARRIVAL
+                                    $125.00</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="form-group row xacNhan">
+                        <div class="col-sm-10">
+                            <label for="" style="margin-left: 40%;">&#160;Accuracy Capcha</label>
+                            <div class="form-control" style="height: 128%; font-size: 16px;">
+                                asd
+                            </div>
+                        </div>
+                        <div class="col-sm-12" style="margin-top: 23%;">
+                            <button type="button" class="btn btn-warning" style="margin-left: 10%; width: 28%;">
+                                <i class="fas fa-undo"></i> Reset
+                            </button>
+                            <button type="button" class="btn btn-success" style="margin-left: 5%; width: 28%;">
+                                <i class="fas fa-plus-circle"></i> Continue
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </article>
+    
+
+        <article class="contentBooking">
+            <p style="text-align: center;margin-top: 2%;font-weight: bolder;font-size: 20px;">YOUR STAY</p>
+            <div style="width: 90%; height: 70%;background-color: whitesmoke;margin-left: 5%;margin-top: 2%;border: 1px solid gray;">
+                <div style="width: 35%; height: 60%;background-color: whitesmoke;display: inline-block;margin-left: 0.5%;margin-top: 0.5%;">
+                    <img src="/imgHotel/room.jpg" alt="" srcset="" width="134%;">
+                </div>
+                <div style="background-color: whitesmoke; width: 64%;height: 60%;position: relative; top: -60%;left: 36%;">
+                    <p style="font-weight: bolder;">Check In : After 2:00 PM </p>
+                    <p style="font-weight: bolder;">Check Out : Before 11:00 AM</p>
+                    <hr>
+                    <p style="margin-left: 10%;font-weight: bolder;">ROOM 3562</p>
+                    <p style="margin-top: 2%;">&#10148; Date : Sun, May 24, 2020 - Mon, May 25, 2020</p>
+                    <p style="margin-top: 3%;">	&#10148; Room Deluxe (DLX) <span style="float: right;margin-right: 5%;">200$</span></p>
+                    <p style="margin-top: 3%;">	&#10148; Taxes and Fees <span style="float: right;margin-right: 5%;">40$</span></p>
+                    
+                    <div style="width: 156%;background-color: whitesmoke;margin-left: -56%;margin-top: 3%;">
+                        <p style="font-weight: bolder;margin-left: 3%;">SERVICE YOU CHOOSE</p>
+                        <div>
+                            <p style="margin-top: 2%;">&#10148; Car : <span>From Tan Son Nhat Airport</span> <span style="float: right;margin-right: 3%;"> 50$</span></p>
+                            <p>&#10148; Taxes and Fees <span style="float: right;margin-right: 3%;">10$</span></p>
+                            <hr>
+                            <p style="margin-top: 2%;">&#10148; Car : <span>From Tan Son Nhat Airport</span> <span style="float: right;margin-right: 3%;"> 50$</span></p>
+                            <p>&#10148; Taxes and Fees <span style="float: right;margin-right: 3%;">10$</span></p>
+                        </div>
+                    </div>
+                    <br>
+                    <div style="float: right;margin-right: 5%;font-size: 20px;font-weight: bolder;">
+                        Total Cost : <span>12900$</span>
+                    </div>
+                </div>
+                
+            </div>
+
+
+        </article>
+    </article>  
+
+    <footer class="footer">
+        <div class="infoHotel">
+            <p>Thông tin liên hệ</p>
+            <div>
+                <span>Địa chỉ : Bà Nà Hills – địa điểm du lịch Đà Nẵng </span>
+            </div>
+            <div>
+                <span>Hotline : (034) 4109 790 &#160; &#160; &#160; &#160; Email :
+                    duytu2458@gmail.com</span>
+            </div>
+        </div>
+        <div class="conVat">
+            <i class="fas fa-dove" style="font-size: 35px;">
+                <sup style="font-size: 20px;">Gâu Gâu =))</sup>
+            </i>
+            <!-- <audio id="play" class="music" controls src="mp3/nhac.mp3" autoplay></audio>  -->
+        </div>
+    </footer>
+
+    <script>
+        $(document).ready(function () {
+            //$("#play").trigger("play")
+        });
+    </script>
+
+</body>
+
+</html>
